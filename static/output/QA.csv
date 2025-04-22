@@ -1,0 +1,27 @@
+Question,Answer
+1.  What is the primary purpose of the Java Collections Framework?,"The primary purpose of the Java Collections Framework is to provide a unified architecture for representing and manipulating collections of objects. It aims to reduce programming effort, increase performance, provide interoperability, reduce learning effort, reduce design and implementation effort, and foster software reuse."
+2.  In what Java package can you find the Collections Framework?,java.util
+3.  Name three benefits of using the Collections Framework as described in the documentation.,"Here are three benefits of using the Collections Framework, as described in the documentation:
+
+1.  **Reduces programming effort:** It provides useful data structures and algorithms, so you don't have to write them yourself.
+2.  **Increases performance:** It provides high-performance implementations of useful data structures and algorithms.
+3.  **Provides interoperability between unrelated APIs:** It establishes a common language to pass collections back and forth."
+4.  Explain the difference between a `List` and a `Set` in terms of允許重複的元素 (allowed duplicate elements).,"A `List` can contain duplicate elements, while a `Set` can only contain distinct elements."
+5.  Give two examples of classes that implement the `List` interface.,"ArrayList, Vector"
+6.  Give two examples of classes that implement the `Set` interface.,"HashSet, TreeSet"
+7.  What is the purpose of a `Map` in the Collections Framework?,"A `Map` in the Collections Framework is used to contain pairs of `<key, value>`. The key of an element is used for fast searching."
+8.  Give two examples of classes that implement the `Map` interface.,HashMap and TreeMap
+9.  Is the Collections Framework thread-safe by default?,"No, the collections framework as a whole is not threadsafe."
+"10. What are some common methods available for manipulating groups of objects within collections (e.g., in interfaces like `List`, `Set`, etc.)?","Add, Remove, Search, Clear."
+11. What is the purpose of the `Queue` and `Deque` interfaces in relation to the `List` interface?,`Queue` and `Deque` contain methods of a restricted `List`.
+"12. Explain the significance of `T`, `E`, `K`, and `V` when used in the context of Collection interfaces.","`T`, `E`, `K`, and `V` are used as generic type parameters in the context of Collection interfaces.
+
+*   `T`: Represents a generic **type**.
+*   `E`: Represents a generic **element**.
+*   `K`: Represents a generic **key**.
+*   `V`: Represents a generic **value**.
+
+These type parameters allow the Collection interfaces to work with collections containing elements of arbitrary types."
+13. What data structures might be used internally to store elements in a Collection? Give at least three examples.,"According to the provided text, elements in a Collection can be stored using an array, a tree, or a hash table."
+14. What is an `Iterator` and why is it useful when working with Collections?,"Based on the provided context, an `Iterator` is a list of references used to traverse elements in a collection, particularly when you want to treat the elements as a list. The context doesn't explicitly state *why* it's useful, but it implies that it provides a way to access elements sequentially, which is necessary for many operations on collections."
+15. Explain how the Collections Framework promotes interoperability between unrelated APIs.,The Collections Framework promotes interoperability between unrelated APIs by establishing a common language to pass collections back and forth.
